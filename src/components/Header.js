@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const isActive = (path) => {
+    return location.pathname === path;
   };
 
   return (
@@ -13,21 +18,33 @@ const Header = () => {
       <div className="px-6 py-4">
         <div className="flex justify-between items-center">
           <nav className="hidden md:flex space-x-4">
-                    <Link 
-                      to="/" 
-                      className="px-4 py-2 bg-black text-white text-sm rounded"
-                    >
+            <Link 
+              to="/" 
+              className={`px-4 py-2 text-sm rounded transition-colors duration-200 ${
+                isActive('/') 
+                  ? 'bg-black text-white' 
+                  : 'text-black hover:text-gray-600'
+              }`}
+            >
               Home
             </Link>
             <Link 
               to="/posts" 
-              className="px-4 py-2 text-black text-sm hover:text-gray-600 transition-colors duration-200"
+              className={`px-4 py-2 text-sm rounded transition-colors duration-200 ${
+                isActive('/posts') 
+                  ? 'bg-black text-white' 
+                  : 'text-black hover:text-gray-600'
+              }`}
             >
               Posts
             </Link>
             <Link 
               to="/about" 
-              className="px-4 py-2 text-black text-sm hover:text-gray-600 transition-colors duration-200"
+              className={`px-4 py-2 text-sm rounded transition-colors duration-200 ${
+                isActive('/about') 
+                  ? 'bg-black text-white' 
+                  : 'text-black hover:text-gray-600'
+              }`}
             >
               About
             </Link>
@@ -57,21 +74,33 @@ const Header = () => {
             <div className="space-y-3">
               <Link 
                 to="/" 
-                        className="block text-sm text-black hover:text-gray-600 transition-colors duration-200"
+                className={`block text-sm px-4 py-2 rounded transition-colors duration-200 ${
+                  isActive('/') 
+                    ? 'bg-black text-white' 
+                    : 'text-black hover:text-gray-600'
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/posts" 
-                        className="block text-sm text-black hover:text-gray-600 transition-colors duration-200"
+                className={`block text-sm px-4 py-2 rounded transition-colors duration-200 ${
+                  isActive('/posts') 
+                    ? 'bg-black text-white' 
+                    : 'text-black hover:text-gray-600'
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Posts
               </Link>
               <Link 
                 to="/about" 
-                        className="block text-sm text-black hover:text-gray-600 transition-colors duration-200"
+                className={`block text-sm px-4 py-2 rounded transition-colors duration-200 ${
+                  isActive('/about') 
+                    ? 'bg-black text-white' 
+                    : 'text-black hover:text-gray-600'
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
