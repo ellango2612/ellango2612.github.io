@@ -1,10 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { blogPosts, categories } from '../data/blogPosts';
+import { blogPosts } from '../data/blogPosts';
 
 const BlogList = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('all');
 
   const filteredPosts = useMemo(() => {
     let filtered = blogPosts;
@@ -17,12 +16,9 @@ const BlogList = () => {
       );
     }
     
-    if (selectedCategory !== 'all') {
-      filtered = filtered.filter(post => post.category === selectedCategory);
-    }
 
     return filtered;
-  }, [searchTerm, selectedCategory]);
+  }, [searchTerm]);
 
   return (
     <section className="py-20 bg-white">
