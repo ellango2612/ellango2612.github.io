@@ -1,10 +1,10 @@
 import React from 'react';
-import BlogList from '../components/BlogList';
+import ProjectList from '../components/ProjectList';
 
 const Posts = () => {
   return (
     <div className="pt-16">
-      <BlogList />
+      <ProjectList />
     </div>
   );
 };

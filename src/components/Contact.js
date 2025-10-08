@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">your.email@example.com</p>
+                  <p className="text-gray-600">ellaxtngo@gmail.com</p>
                 </div>
               </div>
 
@@ -71,8 +71,8 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">Your City, Country</p>
+                  <h4 className="font-semibold text-gray-900">Phone</h4>
+                  <p className="text-gray-600">206-786-6488</p>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
               <h4 className="font-semibold text-gray-900 mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/ellango2612" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200"
@@ -105,7 +105,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://linkedin.com/in/thu-ella-ngo" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200"

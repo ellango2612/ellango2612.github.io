@@ -36,7 +36,17 @@ const Header = () => {
                   : 'text-black hover:text-gray-600'
               }`}
             >
-              Posts
+              Projects
+            </Link>
+            <Link 
+              to="/blog" 
+              className={`px-4 py-2 text-sm rounded transition-colors duration-200 ${
+                isActive('/blog') 
+                  ? 'bg-black text-white' 
+                  : 'text-black hover:text-gray-600'
+              }`}
+            >
+              Blog
             </Link>
             <Link 
               to="/about" 
@@ -92,7 +102,18 @@ const Header = () => {
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Posts
+                Projects
+              </Link>
+              <Link 
+                to="/blog" 
+                className={`block text-sm px-4 py-2 rounded transition-colors duration-200 ${
+                  isActive('/blog') 
+                    ? 'bg-black text-white' 
+                    : 'text-black hover:text-gray-600'
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 to="/about" 

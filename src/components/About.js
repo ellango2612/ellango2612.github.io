@@ -16,45 +16,58 @@ const About = () => {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-lg text-gray-600 leading-relaxed space-y-6">
             <p>
-              I'm Thu Ngo, a slothful creature from earth who loves to write code and think about life.
+              I'm Thu (Ella) Ngo, a Computer Science graduate from Reed College with experience building 
+              scalable software solutions at Morgan Stanley, Corgi AI Insurance, and FinBud.
             </p>
             
             <p>
-              I'm not lazy, I'm on energy saving mode. I prefer to take my time to understand things 
-              before implementing them. This approach has taught me that slow and steady often wins the race.
+              I specialize in full-stack development with expertise in Python, Java, React, and machine learning. 
+              My work spans from building recommendation engines and AI-powered developer tools to creating 
+              automated financial analytics pipelines processing 400+ reports daily.
             </p>
             
             <p>
-              I'm an extroverted introvert, if that makes sense. I love people, but I also love being alone. 
-              Programming is perfect for this duality—I can spend hours in deep focus, solving problems in solitude, 
-              but I also thrive in code reviews, pair programming sessions, and team discussions.
+              I believe in thoughtful engineering—taking time to understand problems deeply before implementing 
+              solutions. This approach has led to measurable improvements: 35% latency reduction, 20% precision 
+              gains, and 60% user satisfaction increases across my projects.
             </p>
             
             <p>
-              The more I learn, the more I realize how much I don't know. And that's exactly what makes this field 
-              so fascinating. There's always something new to explore, always a different way to solve a problem.
-            </p>
-            
-            <p>
-              I'm too old to care about the things that used to matter. Now I just want to build things that work, 
-              that serve their purpose without fanfare.
+              Beyond code, I'm passionate about creating software that serves its purpose without fanfare. 
+              Whether it's optimizing JVM performance, implementing comprehensive testing strategies, or 
+              building real-time collaboration features, I focus on reliability and maintainability.
             </p>
             
             <p className="italic text-gray-500">
-              We know very little.
+              Building things that work, one commit at a time.
             </p>
           </div>
 
-          {/* Simple contact info */}
+          {/* Skills Section */}
+          <div className="mt-16 pt-8 border-t border-gray-300">
+            <h3 className="text-xl font-medium text-black mb-6">Technical Skills</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-sm font-medium text-gray-700 mb-3">Languages</h4>
+                <p className="text-sm text-gray-600">Python, Java, JavaScript, TypeScript, C/C++, Swift, SQL, R</p>
+              </div>
+              <div>
+                <h4 className="text-sm font-medium text-gray-700 mb-3">Frameworks & Tools</h4>
+                <p className="text-sm text-gray-600">React, Node.js, FastAPI, Temporal, Docker, AWS, GitHub Actions</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact info */}
           <div className="mt-16 pt-8 border-t border-gray-300 text-center">
             <p className="text-sm text-gray-400">
-              You can find me on{' '}
-              <a href="https://github.com" className="hover:text-black transition-colors duration-200">
-                GitHub
+              Connect with me on{' '}
+              <a href="https://linkedin.com/in/thu-ella-ngo" className="hover:text-black transition-colors duration-200">
+                LinkedIn
               </a>
               {' '}or{' '}
-              <a href="https://twitter.com" className="hover:text-black transition-colors duration-200">
-                Twitter
+              <a href="https://github.com/ellango2612" className="hover:text-black transition-colors duration-200">
+                GitHub
               </a>
             </p>
           </div>

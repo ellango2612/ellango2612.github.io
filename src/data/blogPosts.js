@@ -48,9 +48,11 @@ export const blogPosts = [
     title: "tea at a temple",
     excerpt: "Finding peace in ancient rituals",
     content: `
-      <p>There's something meditative about the ritual of tea. The careful preparation, the mindful sipping, the quiet contemplation.</p>
+      <p>In the quiet serenity of a temple, a simple tea ceremony can become a profound experience.</p>
       
-      <p>In temples, this ritual takes on deeper meaning. It's not just about the tea—it's about presence, gratitude, and connection to something greater.</p>
+      <p>The gentle steam, the earthy aroma, the warmth of the cup in your hands—each element invites mindfulness, a moment to pause and simply be.</p>
+      
+      <p>It's a reminder that even in our fast-paced lives, there are ancient rituals that can ground us, connecting us to a deeper sense of peace and tradition.</p>
       
       <p>Sometimes the simplest moments hold the most profound wisdom.</p>
     `,
@@ -92,11 +94,13 @@ export const blogPosts = [
     title: "making a rocket",
     excerpt: "Building dreams, one piece at a time",
     content: `
-      <p>Every great achievement starts with a dream. Every rocket starts with a single bolt.</p>
+      <p>The dream of building a rocket, of reaching for the stars, is a powerful metaphor for any ambitious project.</p>
       
-      <p>Building something from nothing requires patience, persistence, and a willingness to fail. But when it finally takes flight, all the struggles become worth it.</p>
+      <p>It starts with a spark of an idea, a blueprint, a vision. Then comes the meticulous planning, the countless hours of design, the trial and error.</p>
       
-      <p>Whether it's a literal rocket or a metaphorical one, the process is the same: dream, plan, build, iterate, launch.</p>
+      <p>Each component, no matter how small, plays a crucial role. Each failure is a lesson learned, bringing you closer to success.</p>
+      
+      <p>And when it finally launches, when your creation soars, the feeling of accomplishment is unparalleled. It's a testament to perseverance, innovation, and the human spirit.</p>
     `,
     author: "Thu Ngo",
     date: "2024-01-05",
@@ -104,72 +108,6 @@ export const blogPosts = [
     category: "learning",
     tags: ["dreams", "building", "persistence"],
     featured: true,
-    image: "/images/blog/restaurant-woman.jpg",
-    alt: "Woman at restaurant with wine bottles in background, enjoying a cocktail",
-    gridSize: "small",
-    blockType: "text-only"
-  },
-  {
-    id: 6,
-    title: "sunset hill",
-    excerpt: "Chasing golden hour",
-    content: `
-      <p>There's something magical about watching the sun set from a hilltop. The way the light transforms everything it touches.</p>
-      
-      <p>Golden hour isn't just about photography—it's about perspective. From up high, everything looks different. Problems seem smaller, possibilities seem bigger.</p>
-      
-      <p>Sometimes we need to climb a little higher to see the bigger picture.</p>
-    `,
-    author: "Thu Ngo",
-    date: "2024-01-03",
-    readTime: "1 min read",
-    category: "personal",
-    tags: ["nature", "perspective", "beauty"],
-    featured: false,
-    image: "/images/blog/contemplative-man.jpg",
-    alt: "Contemplative man in thoughtful pose, hands clasped",
-    gridSize: "small",
-    blockType: "accent"
-  },
-  {
-    id: 7,
-    title: "guys on motorcycle",
-    excerpt: "Freedom on two wheels",
-    content: `
-      <p>There's something liberating about motorcycles. The wind in your hair, the open road ahead, the sense of freedom that comes with movement.</p>
-      
-      <p>It's not just about transportation—it's about adventure, independence, and the thrill of the journey.</p>
-      
-      <p>Sometimes the best way to clear your mind is to hit the open road.</p>
-    `,
-    author: "Thu Ngo",
-    date: "2024-01-01",
-    readTime: "1 min read",
-    category: "personal",
-    tags: ["freedom", "adventure", "travel"],
-    featured: false,
-    image: "/images/blog/retro-cafe-woman.jpg",
-    alt: "Woman in retro cafe with vintage decor, checkered floors, and newspaper-covered ceiling",
-    gridSize: "small",
-    blockType: "text-only"
-  },
-  {
-    id: 8,
-    title: "some pinky moments",
-    excerpt: "The little joys that matter",
-    content: `
-      <p>Life is made up of small moments. The pinky promise between friends, the shared secret smile, the quiet understanding between kindred spirits.</p>
-      
-      <p>These moments might seem insignificant, but they're the threads that weave the fabric of our relationships.</p>
-      
-      <p>Sometimes the smallest gestures carry the biggest meanings.</p>
-    `,
-    author: "Thu Ngo",
-    date: "2023-12-28",
-    readTime: "1 min read",
-    category: "personal",
-    tags: ["friendship", "moments", "joy"],
-    featured: false,
     image: "/images/blog/restaurant-woman.jpg",
     alt: "Woman at restaurant with wine bottles in background, enjoying a cocktail",
     gridSize: "small",
@@ -183,7 +121,9 @@ export const categories = [
   "learning",
   "personal",
   "wisdom",
-  "philosophy"
+  "philosophy",
+  "travel",
+  "nature"
 ];
 
 export const getFeaturedPosts = () => {

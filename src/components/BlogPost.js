@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { getPostById, blogPosts } from '../data/blogPosts';
+import { getProjectById, portfolioProjects } from '../data/portfolioProjects';
 
-const BlogPost = ({ postId }) => {
-  const post = getPostById(postId);
+const BlogPost = ({ postId, type = 'blog' }) => {
+  const post = type === 'project' ? getProjectById(postId) : getPostById(postId);
   
   if (!post) {
     return (
@@ -22,8 +23,9 @@ const BlogPost = ({ postId }) => {
     );
   }
 
-  // Get related posts (same category, excluding current post)
-  const relatedPosts = blogPosts
+  // Get related posts/projects (same category, excluding current post)
+  const allItems = type === 'project' ? portfolioProjects : blogPosts;
+  const relatedPosts = allItems
     .filter(p => p.category === post.category && p.id !== post.id)
     .slice(0, 2);
 
@@ -35,10 +37,10 @@ const BlogPost = ({ postId }) => {
           {/* Back Link */}
           <div>
             <Link 
-              to="/posts" 
+              to={type === 'project' ? "/posts" : "/blog"} 
               className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors duration-200"
             >
-              ← back to posts
+              ← back to {type === 'project' ? 'projects' : 'blog'}
             </Link>
           </div>
 
@@ -106,12 +108,14 @@ const BlogPost = ({ postId }) => {
         {/* Related Posts */}
         {relatedPosts.length > 0 && (
           <div className="mt-16 pt-8 border-t border-gray-100">
-                    <h3 className="text-lg font-light text-black mb-8">Related posts</h3>
+            <h3 className="text-lg font-light text-black mb-8">Related {type === 'project' ? 'projects' : 'posts'}</h3>
             <div className="space-y-6">
               {relatedPosts.map(relatedPost => (
                 <div key={relatedPost.id} className="group">
                   <h4 className="text-lg font-light text-black group-hover:text-gray-600 transition-colors duration-200 mb-2">
-                    <Link to={`/post/${relatedPost.id}`}>{relatedPost.title}</Link>
+                    <Link to={type === 'project' ? `/project/${relatedPost.id}` : `/blog/${relatedPost.id}`}>
+                      {relatedPost.title}
+                    </Link>
                   </h4>
                   <p className="text-sm text-gray-600 font-light italic">
                     {relatedPost.excerpt}
@@ -131,10 +135,10 @@ const BlogPost = ({ postId }) => {
         <div className="mt-16 pt-8 border-t border-gray-100">
           <div className="flex justify-between items-center">
             <Link 
-              to="/posts" 
+              to={type === 'project' ? "/posts" : "/blog"} 
               className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors duration-200"
             >
-              ← all posts
+              ← all {type === 'project' ? 'projects' : 'posts'}
             </Link>
             <div className="text-sm text-gray-400 font-light">
               {post.author}

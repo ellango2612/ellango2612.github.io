@@ -7,8 +7,12 @@ const Hero = () => {
         <h1 className="text-6xl md:text-8xl text-black leading-none mb-8">
           Thu Ngo
         </h1>
-        <p className="text-xl text-gray-600 mb-16">
-          A slothful creature from Earth
+        <p className="text-xl text-gray-600 mb-4">
+          Software Engineer
+        </p>
+        <p className="text-lg text-gray-500 mb-16 max-w-2xl mx-auto">
+          Building thoughtful digital experiences through clean code and minimalist design. 
+          Passionate about creating software that serves its purpose without fanfare.
         </p>
         <div className="w-full max-w-2xl mx-auto">
           <img 

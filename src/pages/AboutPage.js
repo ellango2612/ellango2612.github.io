@@ -40,16 +40,15 @@ const AboutPage = () => {
           <div className="max-w-4xl mx-auto space-y-12">
             <div className="text-lg text-gray-600 leading-relaxed space-y-6">
               <p>
-                I'm Thu Ngo, a slothful creature from earth who loves to write code and think about life.
+                My name is Thu, a 24-year-old who loves to write, either code or thoughts.
               </p>
               
               <p>
-                I'm not lazy, I'm on energy saving mode. I prefer to take my time to understand things 
-                before implementing them. This approach has taught me that slow and steady often wins the race.
+                My favorite phrase is: "Less is more". I especially love reflecting on my life, both personal experiences and professional journeys.
               </p>
               
               <p>
-                I'm an extroverted introvert, if that makes sense. I love people, but I also love being alone. 
+                I'm an ambivert. I love people, but I also love being alone. 
                 Programming is perfect for this duality—I can spend hours in deep focus, solving problems in solitude, 
                 but I also thrive in code reviews, pair programming sessions, and team discussions.
               </p>
@@ -60,8 +59,9 @@ const AboutPage = () => {
               </p>
               
               <p>
-                I'm too old to care about the things that used to matter. Now I just want to build things that work, 
-                that serve their purpose without fanfare.
+                I love challenges, puzzles, and quite frankly anything that requires lots of thinking or problem-solving. I'm driven by an insatiable ambition to push boundaries and create impact at scale. 
+                I'm constantly seeking the next challenge that will 
+                stretch my capabilities and leave a meaningful mark on the world.
               </p>
               
               <p className="italic text-gray-500">
@@ -107,7 +107,7 @@ const AboutPage = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-black">Email</h4>
-                    <p className="text-gray-600">thu.ngo@example.com</p>
+                    <p className="text-gray-600">xuanthu.2612.40@gmail.com</p>
                   </div>
                 </div>
 
@@ -142,7 +142,7 @@ const AboutPage = () => {
                 <h4 className="font-medium text-black mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/ellango2612" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-200"
