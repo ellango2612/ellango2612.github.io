@@ -99,7 +99,7 @@ const BlogPost = ({ postId, type = 'blog' }) => {
             <div>
                       <p className="font-light text-black">{post.author}</p>
               <p className="text-sm text-gray-500 font-light">
-                A slothful creature from earth
+                Software Engineer
               </p>
             </div>
           </div>

@@ -1,20 +1,26 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "love and the brain",
-    excerpt: "The neuroscience of connection",
+    title: "the bell jar",
+    excerpt: "Sylvia Plath and myself",
     content: `
-      <p>What happens in our brains when we fall in love? The science behind attraction is more complex than we think.</p>
+      <p>I got the incredible opportunity to read The bell jar as a sophomore at Reed College, during the gaps in my mornings taking care of flowers and plants at Reed in 2021. Yes, it was a summer job, which I cherish to this day, and quite frankly, I would love to be a farmer in another life. I love spending time physically laboring on nature a little bit too much. Perhaps another story for another day.</p>
       
-      <p>Dopamine floods our system, creating that euphoric feeling. But it's not just chemicals—it's about connection, understanding, and the beautiful complexity of human relationships.</p>
+      <p>I couldn't come back home over that summer, so I decided to get a campus job and read during my spare time. Perhaps the loneliness but forced contentment at the time was enough to enable me to appreciate every single aspect of the book. I have not read it since, but the impression of a perfect work of literary stayed with me ever since. I can only mention The bell jar during my most elated discussions of books I adore. It was the most wondrous portrayal of helpless feelings that are so strong and visceral, yet so essential to being a human, I thought. </p>
       
-      <p>Sometimes the most profound connections happen in the quietest moments. A shared glance, a knowing smile, the way someone's eyes light up when they talk about their passions.</p>
+      <p>What struck me most was the profound significance of being stuck. Esther's paralysis wasn't just mental illness—it was the weight of too many choices, too many expectations, too many versions of herself she was supposed to be. That feeling of being frozen, unable to move forward but unable to go back, resonated so deeply with me, lots of times, between my current 24-year-old self and my 19-year-old one, at the time.</p>
+      
+        <p><strong><em>But then there were those moments—small, fragile moments—when clarity broke through.</em></strong> When Esther found glimpses of herself beneath all the noise. There's something so beautiful about the joy of figuring it out, even if just for a moment. That brief flash of understanding who you are and what you want, before the world tries to tell you otherwise again.</p>
+      
+      <p>Later, I found out that Sylvia wrote the book as a semi-autobigraphy, and that she had tried committing suicide many times before successfully doing so at the age of 30. This begs the question that I still don't know the answer for: does art have to be gloomy to be effective? I definitely muse over it several times in my life, and the different answers I have at different stages of my life seem to never be the end of it. I only know that right now, the answer is no, any story filled with emotions, be them happiness or sadness, is artful enough.</p>
+      
+      <p>Anyhow, The bell jar is a beautiful book and a mesmerizing work of art, and Sylvia Plath is one of my all-time favorite authors. Highly recommend!</p>
     `,
     author: "Thu Ngo",
-    date: "2024-01-15",
-    readTime: "2 min read",
+    date: "2021-10-15",
+    readTime: "6 min read",
     category: "thoughts",
-    tags: ["love", "neuroscience", "connection"],
+    tags: ["reading", "sylvia plath", "books", "emotions"],
     featured: true,
     image: "/images/blog/restaurant-woman.jpg",
     alt: "Woman at restaurant with wine bottles in background, enjoying a cocktail",
