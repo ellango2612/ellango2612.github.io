@@ -91,10 +91,12 @@ const BlogPost = ({ postId, type = 'blog' }) => {
         {/* Author */}
         <div className="mt-12 pt-8 border-t border-gray-100">
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-              <span className="text-sm font-light text-gray-600">
-                {post.author.charAt(0).toUpperCase()}
-              </span>
+            <div className="w-12 h-12 rounded-full overflow-hidden">
+              <img 
+                src="/images/blog/thu-profile.jpeg" 
+                alt="Thu Ngo profile picture"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
                       <p className="font-light text-black">{post.author}</p>
@@ -105,31 +107,6 @@ const BlogPost = ({ postId, type = 'blog' }) => {
           </div>
         </div>
 
-        {/* Related Posts */}
-        {relatedPosts.length > 0 && (
-          <div className="mt-16 pt-8 border-t border-gray-100">
-            <h3 className="text-lg font-light text-black mb-8">Related {type === 'project' ? 'projects' : 'posts'}</h3>
-            <div className="space-y-6">
-              {relatedPosts.map(relatedPost => (
-                <div key={relatedPost.id} className="group">
-                  <h4 className="text-lg font-light text-black group-hover:text-gray-600 transition-colors duration-200 mb-2">
-                    <Link to={type === 'project' ? `/project/${relatedPost.id}` : `/blog/${relatedPost.id}`}>
-                      {relatedPost.title}
-                    </Link>
-                  </h4>
-                  <p className="text-sm text-gray-600 font-light italic">
-                    {relatedPost.excerpt}
-                  </p>
-                  <div className="flex items-center space-x-2 mt-2 text-xs text-gray-400 font-light">
-                    <span>{relatedPost.date}</span>
-                    <span>•</span>
-                    <span>{relatedPost.readTime}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
 
         {/* Navigation */}
         <div className="mt-16 pt-8 border-t border-gray-100">
