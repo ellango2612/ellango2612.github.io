@@ -101,31 +101,6 @@ export const portfolioProjects = [
   },
   {
     id: 5,
-    title: "Morgan Stanley Analytics Pipeline",
-    excerpt: "Automated portfolio analysis and risk assessment system",
-    content: `
-      <p>Create tailored portfolio analyses and automated reporting for regulatory compliance and liquidity risk assessment, enhancing investment decision-making efficiency and optimizing the production of ~400 analysis reports daily.</p>
-      
-      <p>Implement unit and integration testing for internal analytics software, ensuring reliable and maintainable data pipelines for complex financial datasets.</p>
-      
-      <p>Build and optimize data ingestion and transformation scripts, improving accuracy and accessibility for stakeholders across the organization.</p>
-    `,
-    author: "Thu Ngo",
-    date: "2024-01-05",
-    readTime: "3 min read",
-    category: "data-engineering",
-    tags: ["Data Engineering", "Financial Analytics", "Automation"],
-    featured: true,
-    image: "/images/blog/restaurant-woman.jpg",
-    alt: "Financial analytics dashboard and data pipeline",
-    gridSize: "small",
-    blockType: "text-only",
-    technologies: ["Python", "SQL", "Data Analytics", "Testing"],
-    githubUrl: "https://github.com/ellango2612",
-    liveUrl: "#"
-  },
-  {
-    id: 6,
     title: "Portfolio Website",
     excerpt: "React-based personal portfolio with minimalist design",
     content: `
@@ -150,7 +125,7 @@ export const portfolioProjects = [
     liveUrl: "https://ellango2612.github.io"
   },
   {
-    id: 7,
+    id: 6,
     title: "iOS Calculator App",
     excerpt: "Swift-based calculator application",
     content: `
@@ -175,7 +150,7 @@ export const portfolioProjects = [
     liveUrl: "#"
   },
   {
-    id: 8,
+    id: 7,
     title: "RGBullsEye Game",
     excerpt: "Interactive color-matching game in Swift",
     content: `
