@@ -32,11 +32,7 @@ export const blogPosts = [
     title: "first car of the train",
     excerpt: "Starting journeys, one step at a time",
     content: `
-      <p>Every journey begins with a single step. Every train ride starts with the first car.</p>
-      
-      <p>There's something beautiful about beginnings. The anticipation, the unknown, the possibility of what lies ahead.</p>
-      
-      <p>Whether it's a new project, a new relationship, or a new adventure, that first step is always the hardest—and the most important.</p>
+      <p><em>Coming soon...</em></p>
     `,
     author: "Thu Ngo",
     date: "2024-01-12",
@@ -54,13 +50,7 @@ export const blogPosts = [
     title: "tea at a temple",
     excerpt: "Finding peace in ancient rituals",
     content: `
-      <p>In the quiet serenity of a temple, a simple tea ceremony can become a profound experience.</p>
-      
-      <p>The gentle steam, the earthy aroma, the warmth of the cup in your hands—each element invites mindfulness, a moment to pause and simply be.</p>
-      
-      <p>It's a reminder that even in our fast-paced lives, there are ancient rituals that can ground us, connecting us to a deeper sense of peace and tradition.</p>
-      
-      <p>Sometimes the simplest moments hold the most profound wisdom.</p>
+      <p><em>Coming soon...</em></p>
     `,
     author: "Thu Ngo",
     date: "2024-01-10",
@@ -78,11 +68,7 @@ export const blogPosts = [
     title: "we need a partner who",
     excerpt: "The qualities that truly matter",
     content: `
-      <p>We need a partner who sees us—really sees us. Not the version we present to the world, but the messy, complicated, beautifully human version underneath.</p>
-      
-      <p>Someone who celebrates our victories and holds us through our defeats. Who challenges us to grow but loves us as we are.</p>
-      
-      <p>Someone who makes us laugh until our stomachs hurt and who sits with us in comfortable silence.</p>
+      <p><em>Coming soon...</em></p>
     `,
     author: "Thu Ngo",
     date: "2024-01-08",
@@ -100,13 +86,7 @@ export const blogPosts = [
     title: "making a rocket",
     excerpt: "Building dreams, one piece at a time",
     content: `
-      <p>The dream of building a rocket, of reaching for the stars, is a powerful metaphor for any ambitious project.</p>
-      
-      <p>It starts with a spark of an idea, a blueprint, a vision. Then comes the meticulous planning, the countless hours of design, the trial and error.</p>
-      
-      <p>Each component, no matter how small, plays a crucial role. Each failure is a lesson learned, bringing you closer to success.</p>
-      
-      <p>And when it finally launches, when your creation soars, the feeling of accomplishment is unparalleled. It's a testament to perseverance, innovation, and the human spirit.</p>
+      <p><em>Coming soon...</em></p>
     `,
     author: "Thu Ngo",
     date: "2024-01-05",
@@ -118,6 +98,150 @@ export const blogPosts = [
     alt: "Woman at restaurant with wine bottles in background, enjoying a cocktail",
     gridSize: "small",
     blockType: "text-only"
+  },
+  {
+    id: 6,
+    title: "capturing moments",
+    excerpt: "our similarities",
+    content: `
+      <p></p>
+    `,
+    author: "Thu Ngo",
+    date: "2024-01-03",
+    readTime: "3 min read",
+    category: "personal",
+    tags: ["photography", "art", "moments"],
+    featured: false,
+    image: "/images/blog/camera-man.jpg",
+    alt: "Man with camera capturing a moment",
+    gridSize: "medium",
+    blockType: "image-only"
+  },
+  {
+    id: 7,
+    title: "urban reflections",
+    excerpt: "Finding beauty in the city's rhythm",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2024-01-01",
+    readTime: "2 min read",
+    category: "thoughts",
+    tags: ["city", "urban", "reflections"],
+    featured: false,
+    image: "/images/blog/urban-scene.jpg",
+    alt: "Urban cityscape with architectural elements and street life",
+    gridSize: "large",
+    blockType: "accent"
+  },
+  {
+    id: 8,
+    title: "nature's embrace",
+    excerpt: "Finding solace in the wild",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-28",
+    readTime: "2 min read",
+    category: "nature",
+    tags: ["nature", "solitude", "peace"],
+    featured: false,
+    image: "/images/blog/nature-scene-1.jpg",
+    alt: "Serene nature landscape with natural elements",
+    gridSize: "medium",
+    blockType: "image-only"
+  },
+  {
+    id: 9,
+    title: "coffee shop conversations",
+    excerpt: "The art of people watching",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-25",
+    readTime: "2 min read",
+    category: "personal",
+    tags: ["coffee", "community", "observations"],
+    featured: false,
+    image: "/images/blog/retro-cafe-woman.jpg",
+    alt: "Woman in retro cafe setting with vintage atmosphere",
+    gridSize: "small",
+    blockType: "text-only"
+  },
+  {
+    id: 10,
+    title: "the mirror's truth",
+    excerpt: "Reflections on self and identity",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-22",
+    readTime: "2 min read",
+    category: "thoughts",
+    tags: ["identity", "reflection", "self-discovery"],
+    featured: false,
+    image: "/images/blog/outdoor-mirror.jpg",
+    alt: "Outdoor mirror reflecting natural surroundings",
+    gridSize: "medium",
+    blockType: "accent"
+  },
+  {
+    id: 11,
+    title: "love in the city",
+    excerpt: "Moments of connection in urban spaces",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-20",
+    readTime: "1 min read",
+    category: "personal",
+    tags: ["love", "connection", "urban"],
+    featured: false,
+    image: "/images/blog/couple-kiss.jpg",
+    alt: "Intimate moment between couple in urban setting",
+    gridSize: "small",
+    blockType: "image-only"
+  },
+  {
+    id: 12,
+    title: "the photographer's eye",
+    excerpt: "Seeing the world differently",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-18",
+    readTime: "2 min read",
+    category: "art",
+    tags: ["photography", "perspective", "art"],
+    featured: false,
+    image: "/images/blog/camera-person.jpg",
+    alt: "Person with camera in artistic pose",
+    gridSize: "medium",
+    blockType: "text-only"
+  },
+  {
+    id: 13,
+    title: "city bear woman",
+    excerpt: "Unexpected encounters in urban life",
+    content: `
+      <p><em>Coming soon...</em></p>
+    `,
+    author: "Thu Ngo",
+    date: "2023-12-15",
+    readTime: "2 min read",
+    category: "thoughts",
+    tags: ["urban", "encounters", "stories"],
+    featured: false,
+    image: "/images/blog/city-bear-woman.jpg",
+    alt: "Urban scene with bear and woman in city setting",
+    gridSize: "large",
+    blockType: "accent"
   }
 ];
 

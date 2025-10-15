@@ -26,27 +26,27 @@ export const portfolioProjects = [
   },
   {
     id: 2,
-    title: "Love Extension - VSCode AI Assistant",
-    excerpt: "AI-powered code suggestions and developer workflow enhancement",
+    title: "Love Extension - VSCode Theme & Messaging",
+    excerpt: "Custom mauve-themed VS Code extension with timed messaging features",
     content: `
-      <p>Integrated custom interactive commands and AI-powered code suggestions via OpenAI API, improving developer workflow efficiency by 30% with intelligent context-aware code completions.</p>
+      <p>A VS Code extension that transforms the coding environment with a beautiful mauve color scheme and adds personalized messaging capabilities.</p>
       
-      <p>Implemented real-time features and asynchronous API calls ensuring responsive and reliable user experience across VSCode updates.</p>
+      <p>Features custom theme configuration with carefully selected mauve tones and timed messaging functionality for gentle reminders and motivation throughout the workday.</p>
       
-      <p>Built automated CI/CD pipelines and testing with GitHub Actions, maintaining cross-version compatibility and deployment stability.</p>
+      <p>The extension creates a calming and aesthetically pleasing workspace that reduces eye strain during long coding sessions while adding a touch of personality to the development environment.</p>
     `,
     author: "Thu Ngo",
     date: "2024-01-12",
     readTime: "2 min read",
     category: "web-development",
-    tags: ["TypeScript", "VSCode API", "AI Integration"],
+    tags: ["TypeScript", "VSCode API", "Theme Customization"],
     featured: false,
-    image: "/images/blog/nature-scene-2.jpg",
-    alt: "VSCode extension interface with AI-powered features",
+    image: "/images/projects/love-extension-screenshot.jpeg",
+    alt: "VSCode interface with mauve theme showing README.md file and custom messaging panel",
     gridSize: "small",
     blockType: "image-only",
-    technologies: ["TypeScript", "VSCode API", "Node.js", "OpenAI API"],
-    githubUrl: "https://github.com/ellango2612",
+    technologies: ["TypeScript", "VSCode API", "Node.js", "CSS"],
+    githubUrl: "https://github.com/ellango2612/love-extension",
     liveUrl: "#"
   },
   {
