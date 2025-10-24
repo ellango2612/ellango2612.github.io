@@ -29,19 +29,21 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "first car of the train",
-    excerpt: "Starting journeys, one step at a time",
+    title: "Zarna Garg's This American Woman",
+    excerpt: "OMG, this screams me",
     content: `
-      <p><em>Coming soon...</em></p>
+      <p>My toxic trait is I love books that remind me of myself. And this one does it!!!!!</p>
+
+      <p>Long story, a wonderful recounting of how an ambitious female navigates her own American Dream, and a longing to WIN. How relatable! Go read it people :)</p>
     `,
     author: "Thu Ngo",
     date: "2024-01-12",
     readTime: "1 min read",
     category: "thoughts",
-    tags: ["journey", "beginnings", "travel"],
+    tags: ["books", "ambition", "american dream", "women", "reading"],
     featured: false,
-    image: "/images/blog/nature-scene-2.jpg",
-    alt: "Beautiful nature scene with organic elements and natural composition",
+    image: "/images/blog/zarna-book-cover.jpg",
+    alt: "Zarna Garg's This American Woman book cover",
     gridSize: "small",
     blockType: "image-only"
   },
