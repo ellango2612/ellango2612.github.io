@@ -49,11 +49,25 @@ export const blogPosts = [
   },
   {
     id: 3,
-    title: "tea at a temple",
-    excerpt: "Finding peace in ancient rituals",
+    title: "Doing hard things",
+    excerpt: "brings you to the most wonderful feelings in the world",
     content: `
-      <p><em>Coming soon...</em></p>
-    `,
+      <p>I have always been a die-hard fan of myself - and that is not an overstatement. I believe in confidence, of course, not arrogance. I also believe in hard work, and that you can achieve anything your heart desires by working hard. Recently, I discovered yet another thing about myself: I love doing hard things.</p>
+
+      <p>Ever since I was a kid, I have been frantically chasing after the idea of being "perfect". Luckily or not, this "perfection" I wanted to attain was by my own design - my parents - the closest people to me as a child, never put any pressure on me. Perhaps because they cherished their little girl, perhaps because they were never educated enough to know what to desire, having never gone to college, but I took it as a good thing anyways - a gift of freedom. However, I did not
+      arrive at this idea in the beginning, of course. Being born in a country where everyone was putting so much pressure on their children from a young age, I was clueless when having a completely different reality from my friends. As a competitive kid, I wanted the drive and pressure just as they had, to have more clarity on what to win over, but I had no idea.
+
+      One day, I found something: I wanted to study abroad, and first, I had to be fluent in English, so I worked hard every single day to achieve that. I stopped hanging out with friends, being razor focused on the one goal that I finally accomplished; and it felt good. It was the first time I realized how competitive I was, and how much I wanted to win.</p>
+
+      <p> Recently, I put two and two together and realized most, if not all, of my hobbies are doing difficult things, which a normal person grimaces at the thought of. I love biking, but especially uphill. I love doing yoga, but especially the power ones, when you hold a plank at least once for as long as you could. I love pilates, but especially advanced classes, although I struggle through every single one of them. I love running, but especially the ones that make me feel like I'm going to die and sweat like a pig. I love puzzles, especially those that take me hours to decode a piece. I love chess, especially when playing with my brother, who would defeat me without fail</p>
+
+      <p>And I love it. I love the feeling of pushing myself to my limits, and the feeling of accomplishment when I finally achieve something. I love the feeling of being in the zone, when I'm so focused on the task at hand that I forget about everything else. I love the feeling of being so tired that I can't even lift my arms up to my head. I love the shakes after an incredible power yoga session. I love the feeling of being so tired that I can't even lift my arms up to my head. Long story short, I discoverd a while ago that I am a workaholic, but only recently that I am addicted even more to working on hard things.</p>
+    
+    
+    <p>Of course, I barely ever find another person who is quite like me, but I don't mind being different. I think each person is unique, and we should all feel good about what makes us feel good. Personally, let me entice you to try something hard today, and let me know how it feels. </p>
+    <p>For all of you weirdos enjoying challenges, <em>“May your trails be crooked, winding, lonesome, dangerous, leading to the most amazing view. May your mountains rise into and above the clouds.”</em>- Edward Abbey.</p>`,
+    
+    
     author: "Thu Ngo",
     date: "2024-01-10",
     readTime: "2 min read",
