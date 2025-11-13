@@ -4,8 +4,15 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Simple redirect to home page for HashRouter
-      window.location.replace('/');
+      // Redirect to home page with hash for HashRouter
+      // If there's a path, preserve it in the hash
+      var path = window.location.pathname;
+      if (path && path !== '/' && path !== '/index.html') {
+        // Convert /blog/1 to #/blog/1
+        window.location.replace('/#' + path);
+      } else {
+        window.location.replace('/#/');
+      }
     </script>
   </head>
   <body>
